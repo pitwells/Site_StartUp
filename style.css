@@ -234,7 +234,7 @@ header {
 
 .about-us {
     background-color: #f8f8f8;
-    padding-bottom: 98px;
+    padding-bottom: 60px;
 }
 
 .about-us__text {
@@ -372,4 +372,15 @@ header {
     opacity: 1;
 }
 
+.latest-works {
+    display: flex;
+    width: 1140px;
+}
 
+.latest-works .section__title {
+    /* margin-top: 120px; */
+}
+
+.latest-works ul {
+    list-style: none;
+}
