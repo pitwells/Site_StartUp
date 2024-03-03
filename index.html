@@ -3,106 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>StartUp</title>
 </head>
 <body>
+    <!-- <div class="qwe"><img class="asd" src="img/Home.png" alt=""></div> -->
     <header>
-        <span class="logo"></span>
-        <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Works</li>
-            <li>Blog</li>
-            <li>Clients</li>
-            <li>Contact</li>
-        </ul>
-        <h1>Welcome to STARTUP</h1>
-        <span>Your Favourite Creative Agency Template</span>
-        <button>Get Started</button>
+        <div class="menu">
+            <ul>
+                <li>Startup</li>
+                <li>Home</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Works</li>
+                <li>Blog</li>
+                <li>Clients</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="header__text">
+            <h1>Welcome to STARTUP</h1>
+            <span>Your Favourite Creative Agency Template</span>
+            <button type="button">Get Started</button>
+        </div>
     </header>
-    <section>
-        <h3>Services</h3>
-        <span>We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</span>
-        <ul>
-            <li>
-                <img src="img/services_logo_1.png" alt="logo">
+    <section class="section services">
+        <h3 class="section__title">Services</h3>
+        <span class="section__phrase">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</span>
+        <ul class="services__list">
+            <li class="services__item">
+                <div class="services__item_active"><img src="img/services_logo_1.png" alt="logo"></div>
                 <h5>Clean Typography</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
             </li>
-            <li>
-                <img src="img/services_logo_2.png" alt="logo">
+            <li class="services__item">
+                <div class="services__item_active"><img src="img/services_logo_2.png" alt="logo"></div>
                 <h5>Rock Solid Code</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
             </li>
-            <li>
-                <img src="img/services_logo_3.png" alt="logo">
+            <li class="services__item">
+                <div class="services__item_active"><img src="img/services_logo_3.png" alt="logo"></div>
                 <h5>Expert Support</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
             </li>
         </ul>
     </section>
-    <section>
-        <h3>About us</h3>
-        <span>We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</span>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
-        <ul>
-            <li>
+    <section class="section about-us">
+        <h3 class="section__title">About us</h3>
+        <span class="section__phrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</span>
+        <div class="about-us__text">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+        </div>
+        <ul class="about-us__team">            
+            <li class="about-us__member">
                 <div>
                     <img src="img/Uddin.png" alt="photo">
-                    <ul>
-                        <li><a href="#fb"><img src="img/soc_icons.png" alt="fb"></a></li>
-                        <li><a href="#tw"><img src="img/soc_icons.png" alt="tw"></a></li>
-                        <li><a href="#gl"><img src="img/soc_icons.png" alt="gl"></a></li>
-                        <li><a href="#ln"><img src="img/soc_icons.png" alt="ln"></a></li>
+                    <ul class="about-us__soc">
+                        <li><a href="#fb"></a></li>
+                        <li><a href="#tw"></a></li>
+                        <li><a href="#gl"></a></li>
+                        <li><a href="#ln"></a></li>
                     </ul>                    
                 </div>
                 <h7>Md. Khalil Uddin</h7>
                 <span>Head of Ideas</span>
             </li>
-            <li>
+            <li class="about-us__member">
                 <div>
                     <img src="img/photo_2.png" alt="photo">
-                    <ul>
-                        <li><a href="#fb"><img src="img/soc_icons.png" alt="fb"></a></li>
-                        <li><a href="#tw"><img src="img/soc_icons.png" alt="tw"></a></li>
-                        <li><a href="#gl"><img src="img/soc_icons.png" alt="gl"></a></li>
-                        <li><a href="#ln"><img src="img/soc_icons.png" alt="ln"></a></li>
+                    <ul class="about-us__soc">
+                        <li><a href="#fb"></a></li>
+                        <li><a href="#tw"></a></li>
+                        <li><a href="#gl"></a></li>
+                        <li><a href="#ln"></a></li>
                     </ul> 
                 </div>
                 <h7>Rubel Miah</h7>
                 <span>Lead WordPress Developer</span>
             </li>
-            <li>
+            <li class="about-us__member">
                 <div>
                     <img src="img/photo_3.png" alt="photo">
-                    <ul>
-                        <li><a href="#fb"><img src="img/soc_icons.png" alt="fb"></a></li>
-                        <li><a href="#tw"><img src="img/soc_icons.png" alt="tw"></a></li>
-                        <li><a href="#gl"><img src="img/soc_icons.png" alt="gl"></a></li>
-                        <li><a href="#ln"><img src="img/soc_icons.png" alt="ln"></a></li>
+                    <ul class="about-us__soc">
+                        <li><a href="#fb"></a></li>
+                        <li><a href="#tw"></a></li>
+                        <li><a href="#gl"></a></li>
+                        <li><a href="#ln"></a></li>
                     </ul> 
                 </div>
                 <h7>Shamim Mia</h7>
                 <span>Sr. Web Developer</span>
             </li>
-            <li>
+            <li class="about-us__member">
                 <div>
                     <img src="img/photo_4.png" alt="photo">
-                    <ul>
-                        <li><a href="#fb"><img src="img/soc_icons.png" alt="fb"></a></li>
-                        <li><a href="#tw"><img src="img/soc_icons.png" alt="tw"></a></li>
-                        <li><a href="#gl"><img src="img/soc_icons.png" alt="gl"></a></li>
-                        <li><a href="#ln"><img src="img/soc_icons.png" alt="ln"></a></li>
+                    <ul class="about-us__soc">
+                        <li><a href="#fb"></a></li>
+                        <li><a href="#tw"></a></li>
+                        <li><a href="#gl"></a></li>
+                        <li><a href="#ln"></a></li>
                     </ul> 
                 </div>
                 <h7>John Doe</h7>
                 <span>Front-end Developer</span>
             </li>
         </ul>
+        <div class="about-us__scroll-btn">
+            <a href="#p"></a>
+            <a href="#n"></a>
+        </div>
+        
     </section>
-    <section>
+    <!-- <section>
         <h3>Latest work</h3>
         <ul>
             <li>All</li>
@@ -244,6 +257,6 @@
             </ul>
         </div>
         <span>© 2015 Startup, Designed by ShapedTheme</span>
-    </footer>
+    </footer> -->
 </body>
 </html>
