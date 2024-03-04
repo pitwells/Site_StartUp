@@ -54,6 +54,11 @@ header {
     color: #ffffff;
 }
 
+.menu li:hover {
+    color: #c0301c;
+    cursor: default;
+}
+
 .menu li:first-child {
     color: #ffffff;
     font-weight: 700;
@@ -375,6 +380,7 @@ header {
 .latest-works {
     display: flex;
     width: 1140px;
+    padding-bottom: 70px;
 }
 
 .latest-works ul {
@@ -395,6 +401,11 @@ header {
     margin-left: 22px;
 }
 
+.latest-works__menu li:hover {
+    color: #c0301c;
+    cursor: default;
+}
+
 .latest-works__list-works {
     display: flex;
     flex-wrap: wrap;
@@ -402,12 +413,53 @@ header {
 }
 
 .latest-works__list-works li {
-    display: flex;
-    background-color: #c0301c;
+    display: flex;    
     height: 320px;
     width: 360px;
     margin-right: 30px;
     margin-bottom: 30px;
+    background-image: url(img/work_img_1.png);
+}
+
+.latest-works__list-works li:nth-child(2) {
+    background-image: url(img/work_img_2.png);
+}
+
+.latest-works__list-works li:nth-child(3) {
+    background-image: url(img/work_img_3.png);
+}
+
+.latest-works__list-works li:nth-child(4) {
+    background-image: url(img/work_img_4.png);
+}
+
+.latest-works__list-works li:nth-child(5) {
+    background-image: url(img/work_img_5.png);
+}
+
+.latest-works__list-works li:nth-child(6) {
+    background-image: url(img/work_img_6.png);
+}
+
+.latest-works__list-works li:nth-child(7) {
+    background-image: url(img/work_img_7.png);
+}
+
+.latest-works__list-works li:nth-child(8) {
+    background-image: url(img/work_img_8.png);
+}
+
+.latest-works__list-works li:nth-child(9) {
+    background-image: url(img/work_img_9.png);
+}
+
+.latest-works__list-works div:hover{
+    background-color: rgba(192, 48, 28, 0.7);
+}
+
+.latest-works__list-works div:hover h7, .latest-works__list-works div:hover span,
+.latest-works__list-works div:hover button {
+    visibility: visible;
 }
 
 .latest-works__list-works li:nth-child(3n+3) {
@@ -420,30 +472,33 @@ header {
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    top: -101px;
+    height: 320px;
+    width: 360px;    
 }
 
 .latest-works__list-works h7 {
-    /* font-family: "Roboto Slab", serif; */
+    display: flex;
+    justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #ffffff;
-    margin-top: 166px;
+    margin-top: 103px;
+    visibility: hidden;
 }
 
 .latest-works__list-works span {
     font-family: "Roboto Slab", serif;
-    /* font-family: "Montserrat", sans-serif; */
     font-size: 12px;
     font-weight: 300;
     color: #ffffff;
     margin: auto;
+    margin-top: 10px;
+    visibility: hidden;
 }
 
 .latest-works__list-works button {
     font-family: "Roboto Slab", serif;
-    /* font-family: "Montserrat", sans-serif; */
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -452,4 +507,11 @@ header {
     height: 40px;
     width: 100px;
     border: none;
+    margin-top: -82px;
+    background-color: #ffffff;
+    visibility: hidden;
+}
+
+.parallax {
+    
 }
